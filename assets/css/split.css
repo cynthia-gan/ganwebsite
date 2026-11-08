@@ -139,7 +139,9 @@ body.page-template-page-fullsingle-split p {
 .fs-split .split-image {
   width: 50%;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media (max-width: 800px) {
   .fs-split .split-image {
